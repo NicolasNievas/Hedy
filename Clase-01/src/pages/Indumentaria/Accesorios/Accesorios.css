@@ -1,0 +1,42 @@
+.accesorios-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 100px;
+  justify-content: center;
+  padding: 30px;
+  margin: 50px;
+  /* width:85%; */
+}
+
+.accesorio-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  backdrop-filter: blur(5px); 
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.accesorio-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.accesorio-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.accesorio-item img:hover {
+  transform: scale(1.05); 
+}
+
+.accesorie-name{
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.5);
+}

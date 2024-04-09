@@ -1,0 +1,32 @@
+.copyright-p {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.footer-href {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-shadow: 0 0 4px #000000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-href:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-shadow: 0 0 4px #ffffff;
+  text-decoration: none;
+}
+
+.global-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 7vh;
+  background-color: #282c34;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
