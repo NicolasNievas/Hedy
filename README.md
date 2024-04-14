@@ -30,7 +30,7 @@ Abre [http://localhost:3001/remeras](http://localhost:3001/remeras) para verlo e
 ```
   json-server --watch data/db.json --port 3001
 ```
-Utilizar ese comando en caso de que no inicie la API
+Utilizar este comando en caso de que no inicie la API
 
 ## 📄 Documentación API
 ### JSON:
