@@ -54,3 +54,11 @@ Abre [http://localhost:3001/remeras](http://localhost:3001/remeras) para verlo e
   ]
 }
 ```
+
+## 🎨 Otras bibliotecas
+
+En este proyecto, se utilizan algunas otras bibliotecas además de las dependencias principales.
+
+ - [Bootstrap](https://getbootstrap.com/) - Proporciona una amplia gama de estilos predefinidos para crear interfaces de usuario receptivas y atractivas.
+
+ - [SweetAlert2](https://sweetalert2.github.io/) - Facilita la creación de modales y alertas personalizadas, mejorando la experiencia del usuario al presentar mensajes y solicitudes de manera más atractiva.
