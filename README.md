@@ -25,7 +25,12 @@ Para correr la API debe ejecutar el comando:
   npm run json-server
 ```
 Este corre en el puerto `3001`.
-Abre [http://localhost:3001/remeras](http://localhost:3001/remeras) para verlo en su navegador.
+Abre [http://localhost:3001/remeras](http://localhost:3001/remeras) para verlo en su navegador. 
+
+```
+  json-server --watch data/db.json --port 3001
+```
+Utilizar ese comando en caso de que no inicie la API
 
 ## 📄 Documentación API
 ### JSON:
