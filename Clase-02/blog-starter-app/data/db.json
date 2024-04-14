@@ -1,0 +1,52 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Talleres",
+      "coverImage": "https://pbs.twimg.com/media/ELbZ3m5WoAQYavS?format=jpg&name=4096x4096",
+      "title": "Talleres de Córdoba: El Camino Hacia la Gloria en la Copa Conmebol",
+      "date": "2024-04-07",
+      "content": "El 8 de diciembre de 1999, Talleres de Córdoba se consagró campeón de la Copa Conmebol, logrando así el único título internacional para el fútbol de Córdoba. El equipo, dirigido por Ricardo Gareca, tuvo un comienzo anecdótico en el torneo, ya que participó en reemplazo de Gimnasia La Plata, que se había negado a participar.\n\nEn los octavos de final, Talleres comenzó con una derrota de visitante por 4-1 ante Independiente Petrolero de Bolivia, pero luego en Córdoba se impuso por 3-0. En la definición por penales, el equipo de Gareca accedió a cuartos tras vencer 5 a 4.\n\nEn cuartos de final, luego de haber perdido 1-0 de visitante ante Paraná de Brasil e imponerse por el mismo resultado en la vuelta, nuevamente logró el pase a semifinales desde el punto de penal por 3-1.\n\nEn las semifinales, Talleres venció en el Olímpico de Córdoba ante Deportes Concepción de Chile por 2-1 y luego empató 1-1 de visitante para lograr su pase a la final del título continental.\n\nLa final tuvo su primer capítulo el 1 de diciembre, por la ida, los Albiazules cayeron 4-2 ante Sportivo Alagoano en Brasil. La definición se jugaría en Córdoba una semana después. Aquel día y con un gol agónico de Julián Maidana, Talleres venció al Sportivo Alagoano 3 a 0 en el Estadio Córdoba, y se consagró por primera vez como campeón Internacional.",
+      "author": {
+        "name": "Cholo",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZAV6OLHHc8z7I4OaVD0ljzGdeFP0tGreDi3yMFwLBZRXWt7Nh93hC8uRt-UnawErZBw&usqp=CAU"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Belgrano",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ikBs88htsA3wWzDwLQeYwKrCD4JZuF6l-8KDLygC-Q&s",
+      "title": "El Ascenso Histórico de Belgrano en 2011",
+      "date": "2024-04-06",
+      "content": "El 26 de junio de 2011, Belgrano de Córdoba logró un hito en la historia del fútbol argentino. En la Promoción de 2011, el equipo cordobés, conocido como “El Pirata”, consiguió el ascenso a la primera división y mandó a River Plate, uno de los clubes más grandes de Argentina, a la B Nacional.\n\nEl camino hacia este logro comenzó en el partido de ida, jugado en el estadio de Belgrano, el Estadio Julio César Villagra, también conocido como El Gigante de Alberdi. En este encuentro, Belgrano venció a River 2-0, con goles de César Mansanelli, de penal, y César Pereyra.\n\nEl partido de vuelta se disputó en el Monumental de Núñez, estadio de River Plate. El encuentro terminó 1-1, con un gol de Mariano Pavone para River y el gol del empate marcado por Guillermo Farré para Belgrano. Además, el arquero de Belgrano, Juan Carlos Olave, tuvo una actuación destacada al atajar un penal a Mariano Pavone.\n\nEste ascenso es considerado uno de los momentos más orgullosos en la historia de Belgrano y sus hinchas. El equipo era dirigido por Ricardo Zielinski y contaba con jugadores destacados como Guillermo Farré, César Pereyra, y Juan Carlos Olave.",
+      "author": {
+        "name": "Juan",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZAV6OLHHc8z7I4OaVD0ljzGdeFP0tGreDi3yMFwLBZRXWt7Nh93hC8uRt-UnawErZBw&usqp=CAU"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Independiente",
+      "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiabo-g0TnXLRkAmiwdAdq0koPKGj10QXntcJLi-xUtw&s",
+      "title": "La Última Gloria de Independiente: Triunfo en la Copa Libertadores",
+      "date": "2024-04-05",
+      "content": "El 27 de julio de 1984, Independiente de Avellaneda se consagró campeón de la Copa Libertadores por séptima y última vez en su historia. Este logro marcó el final de una era dorada para el club, que había ganado la competencia en 1964, 1965, 1972, 1973, 1974, 1975 y 1984.\n\nEn la final, Independiente se enfrentó a Gremio de Brasil. El primer partido se jugó en Porto Alegre, donde Independiente se impuso por 1-0 con un gol de Jorge Burruchaga tras un gran pase de Ricardo Bochini. El partido de vuelta se disputó en Avellaneda y terminó en un empate sin goles. Con estos resultados, Independiente se consagró campeón continental.\n\nEste triunfo es recordado como uno de los momentos más gloriosos en la historia de Independiente, un club que ha dejado una huella inolvidable en el fútbol sudamericano.",
+      "author": {
+        "name": "Juan Pérez",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZAV6OLHHc8z7I4OaVD0ljzGdeFP0tGreDi3yMFwLBZRXWt7Nh93hC8uRt-UnawErZBw&usqp=CAU"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Vélez Sarsfield",
+      "coverImage": "https://www.laizquierdadiario.com/IMG/arton206562.jpg?1630438764",
+      "title": "Vélez Sarsfield: El Éxito Inolvidable del Campeonato de 1994",
+      "date": "2024-04-04",
+      "content": "En 1994, Vélez Sarsfield vivió uno de los momentos más memorables en la historia del fútbol argentino al proclamarse campeón. Este hito marcó el culmen de años de esfuerzo, dedicación y trabajo en equipo por parte de los jugadores, cuerpo técnico y la apasionada afición del club.\n\nEl equipo demostró un desempeño excepcional a lo largo de la temporada, exhibiendo un juego dinámico y cautivador que le permitió destacarse entre los mejores equipos del país. Con una combinación de talento individual y estrategia colectiva, Vélez superó desafíos, aseguró victorias cruciales y se mantuvo en la cima de la tabla de posiciones durante gran parte del torneo.\n\nEl momento culminante llegó en la etapa final del campeonato, donde Vélez enfrentó a rivales formidables en una serie de partidos emocionantes y llenos de suspense. Con determinación y coraje, el equipo se impuso ante la presión y aseguró resultados decisivos que los acercaron al título anhelado.\n\nLa victoria en 1994 no solo representó un logro deportivo para Vélez Sarsfield, sino también un momento de orgullo y celebración para toda la comunidad del club. Esta hazaña perdurará en la memoria de los aficionados como un símbolo de la grandeza del fútbol argentino y el espíritu indomable de Vélez Sarsfield.",
+      "author": {
+        "name": "Anonymous",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ZAV6OLHHc8z7I4OaVD0ljzGdeFP0tGreDi3yMFwLBZRXWt7Nh93hC8uRt-UnawErZBw&usqp=CAU"
+      }
+    }
+  ]
+}
