@@ -11,7 +11,7 @@ Para instalar las dependencias necesarias debe ejecutar el comando:
 
 Para correr la aplicacion debe ejecutar el comando:
 ```
-  npm run start
+  npm run start / npm run dev
 ```
 Esta corre en el puerto `3000`.
 Abre [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
