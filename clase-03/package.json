@@ -15,7 +15,8 @@
     "next": "14.2.1",
     "next-fetch": "^1.0.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sweetalert2": "^11.10.8"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.0",

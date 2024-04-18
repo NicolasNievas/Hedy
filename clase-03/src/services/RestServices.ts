@@ -50,12 +50,14 @@ export async function editCharacterData(characterId: string, newData: any) {
   try {
     const response = await axios.get(characterId);
     const characterData = response.data;
-
     const updatedCharacterData = _.merge(characterData, newData);
 
-    await axios.put(characterId, updatedCharacterData);
-
-    return updatedCharacterData;
+    const updateResponse = await axios.put(characterId, updatedCharacterData);
+    if (updateResponse.status === 200) {
+      return updatedCharacterData;
+    } else {
+      throw new Error("Failed to update character data");
+    }
   } catch (error) {
     console.error(`Error editing character data for ${characterId}:`, error);
     return null;
@@ -64,9 +66,14 @@ export async function editCharacterData(characterId: string, newData: any) {
 
 export async function deleteCharacterData(characterId: string) {
   try {
-    await axios.delete(characterId);
+    const characterUrl = `https://www.example.com/api/characters/${characterId}`;
+    const deleteResponse = await axios.delete(characterUrl);
 
-    return "Character data deleted successfully";
+    if (deleteResponse.status === 200) {
+      return "Character data deleted successfully";
+    } else {
+      throw new Error("Failed to delete character data");
+    }
   } catch (error) {
     console.error(`Error deleting character data for ${characterId}:`, error);
     return null;
