@@ -4,6 +4,7 @@ import Loading from '@/components/loading';
 import Image from 'next/image';
 import Swal from 'sweetalert2';
 import { books } from '@/data/data';
+import { navigate } from '@/components/navigate';
 
 interface ParamProps {
     params: { id: string };
@@ -23,7 +24,7 @@ const BookDetail = ({ params }: ParamProps) => {
                 showConfirmButton: false,
                 timer: 1500, 
             });
-            
+            navigate();
         }
     }, [params.id]);
 
