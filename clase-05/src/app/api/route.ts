@@ -1,6 +1,5 @@
-import { books} from "@/data/data";
+import { books } from "@/data/data";
 
 export async function GET() {
-    return Response.json(books);
-  }
-  
+  return Response.json(books);
+}
