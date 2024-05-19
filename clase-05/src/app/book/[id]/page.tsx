@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Swal from 'sweetalert2';
 import { books } from '@/data/data';
 import { navigate } from '@/components/navigate';
-import isAuth from '@/context/isAuth';
 
 interface ParamProps {
     params: { id: string };
@@ -54,4 +53,4 @@ const BookDetail = ({ params }: ParamProps) => {
     );
 };
 
-export default isAuth(BookDetail);
+export default BookDetail;
