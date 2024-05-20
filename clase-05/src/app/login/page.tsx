@@ -1,19 +1,6 @@
-"use client"
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation'; 
-import { useDataContext } from '@/context/DataContext';
 import { login, signup } from './actions';
 
 export default function LoginPage() {
-  const { user } = useDataContext();
-  const router = useRouter();
-
-  useEffect(() => {
-    if (user) {
-      router.replace('/')
-    }
-  }, [user, router]);
-
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">

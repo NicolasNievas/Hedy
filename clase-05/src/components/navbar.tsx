@@ -1,25 +1,8 @@
 "use client"
 import Link from 'next/link';
-import { useDataContext } from "@/context/DataContext";
 import { logout } from "@/app/logout/actions";
-import { useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react'; 
 
 const Navbar = () => {
-  const { user } = useDataContext();
-  const router = useRouter();
-
-  const [isLoggedIn, setIsLoggedIn] = useState(!!user);
-
-  useEffect(() => {
-    setIsLoggedIn(!!user); 
-  }, [user]);
-
-  const handleLogout = async () => {
-    await logout();
-    router.push('/');
-  };
-
   return (
     <nav className="bg-gray-800 py-4">
       <div className="container mx-auto px-4">
@@ -29,19 +12,13 @@ const Navbar = () => {
               <div className="text-white text-xl font-semibold cursor-pointer">Books</div>
             </Link>
           </div>
-          <div className="flex items-center">
-            {isLoggedIn ? (
-              <>
-                <p className="text-white mr-4">{`Hello ${user?.email}`}</p> {/* Mostrar el correo electrónico del usuario si está logueado */}
-                <button onClick={handleLogout} className="text-white text-sm font-medium px-4 py-2 border border-transparent rounded-md shadow-sm bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-                  Logout
-                </button>
-              </>
-            ) : (
-              <Link href="/login">
-                <div className="text-white text-sm font-medium px-4 py-2 border border-transparent rounded-md shadow-sm bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Login</div>
-              </Link>
-            )}
+          <div className="flex items-end gap-x-4 ms-auto">
+            <Link href="/login">
+              <button className="text-white bg-green-500 hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-4 py-2 transition-all duration-300 ease-in-out transform hover:scale-105">Login</button>
+            </Link> 
+            <form action={logout}>
+              <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-4 py-2 transition-all duration-300 ease-in-out transform hover:scale-105">Logout</button>
+            </form> 
           </div>
         </div>
       </div>
