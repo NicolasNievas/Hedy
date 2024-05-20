@@ -69,3 +69,5 @@ En este proyecto, se utilizan algunas otras bibliotecas además de las dependenc
  - [SweetAlert2](https://sweetalert2.github.io/) - Facilita la creación de modales y alertas personalizadas, mejorando la experiencia del usuario al presentar mensajes y solicitudes de manera más atractiva.
 
  - [Tailwind](https://tailwindcss.com/docs/installation) - Proporciona una amplia gama de estilos para crear interfaces de usuario receptivas y atractivas.
+
+ - [Supabase](https://supabase.io/docs) - Una alternativa de código abierto a Firebase que ofrece una base de datos, autenticación y almacenamiento en tiempo real. Facilita la creación y gestión de aplicaciones con una infraestructura backend completa.
