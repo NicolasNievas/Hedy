@@ -1,5 +1,7 @@
 {
-    "Index": {
-      "title": "Hola Mundo!"
-    }
+  "Home": {
+    "title": "Hola Mundo!",
+    "copyright": "© 2024 Nicolas Nievas",
+    "github": "Visita mi GitHub"
   }
+}
