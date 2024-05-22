@@ -1,7 +1,16 @@
 {
   "Home": {
     "title": "Hola Mundo!",
+    "footer": "Mi footer",
     "copyright": "© 2024 Nicolas Nievas",
     "github": "Visita mi GitHub"
+  },
+  "About": {
+    "title": "Sobre Nosotros",
+    "description": "Esta es la página sobre nosotros."
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros"
   }
 }

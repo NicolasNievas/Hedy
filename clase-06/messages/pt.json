@@ -1,7 +1,16 @@
 {
   "Home": {
-    "title": "Hello world in de!",
+    "title": "Olá Mundo!",
+    "footer": "Meu rodapé",
     "copyright": "© 2024 Nicolas Nievas",
     "github": "Visite meu GitHub"
+  },
+  "About": {
+    "title": "Sobre Nós",
+    "description": "Esta é a página sobre nós."
+  },
+  "Navbar": {
+    "home": "Início",
+    "about": "Sobre Nós"
   }
 }
