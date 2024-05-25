@@ -1,13 +1,23 @@
 {
   "Home": {
-    "title": "Hello world!",
+    "title": "Multilingual Demonstration Project",
+    "intro": "Welcome to our demonstration project for language switching.",
+    "feature1": "Support for multiple languages.",
+    "feature2": "User-friendly interface.",
+    "feature3": "Fast and efficient performance.",
     "footer": "My footer",
     "copyright": "© 2024 Nicolas Nievas",
     "github": "Visit my GitHub"
   },
   "About": {
     "title": "About Us",
-    "description": "This is the about page."
+    "description": "This is a demonstration page for language switching.",
+    "missionTitle": "Our Mission",
+    "visionTitle": "Our Vision",
+    "teamTitle": "Our Team",
+    "mission": "Our mission is to provide a clear and effective demonstration of language switching.",
+    "vision": "Our vision is to help developers integrate multilingual support into their projects.",
+    "team": "Our team is composed of developers passionate about multilingual technology."
   },
   "Navbar": {
     "home": "Home",
