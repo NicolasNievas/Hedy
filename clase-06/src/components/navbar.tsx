@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Flag_ES from "../public/es_flag.png";
 import Flag_PT from "../public/pt_flag.png";
-import Flag_UK from "../public/uk_flag.png";
+import Flag_EN from "../public/en_flag.jpg";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 
@@ -31,8 +31,8 @@ export default function Navbar() {
                 <Link href={`/pt/${currentPath}`}>
                     <Image src={Flag_PT} alt="PT Flag" width={30} height={30} />
                 </Link>
-                <Link href={`/uk/${currentPath}`}>
-                    <Image src={Flag_UK} alt="UK Flag" width={30} height={30} />
+                <Link href={`/en/${currentPath}`}>
+                    <Image src={Flag_EN} alt="EN Flag" width={30} height={30} />
                 </Link>
             </div>
         </nav>
