@@ -1,0 +1,26 @@
+{
+  "Home": {
+    "title": "Projeto de Demonstração de Multilíngue",
+    "intro": "Bem-vindo ao nosso projeto de demonstração para a troca de idioma.",
+    "feature1": "Suporte para vários idiomas.",
+    "feature2": "Interface fácil de usar.",
+    "feature3": "Desempenho rápido e eficiente.",
+    "footer": "Meu rodapé",
+    "copyright": "© 2024 Nicolas Nievas",
+    "github": "Visite meu GitHub"
+  },
+  "About": {
+    "title": "Sobre Nós",
+    "description": "Esta é uma página de demonstração para a troca de idioma.",
+    "missionTitle": "Nossa Missão",
+    "visionTitle": "Nossa Visão",
+    "teamTitle": "Nossa Equipe",
+    "mission": "Nossa missão é fornecer uma demonstração clara e eficaz da troca de idioma.",
+    "vision": "Nossa visão é ajudar os desenvolvedores a integrar suporte multilíngue em seus projetos.",
+    "team": "Nossa equipe é composta por desenvolvedores apaixonados por tecnologia multilíngue."
+  },
+  "Navbar": {
+    "home": "Início",
+    "about": "Sobre Nós"
+  }
+}
