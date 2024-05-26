@@ -71,3 +71,6 @@ En este proyecto, se utilizan algunas otras bibliotecas además de las dependenc
  - [Tailwind](https://tailwindcss.com/docs/installation) - Proporciona una amplia gama de estilos para crear interfaces de usuario receptivas y atractivas.
 
  - [Supabase](https://supabase.io/docs) - Una alternativa de código abierto a Firebase que ofrece una base de datos, autenticación y almacenamiento en tiempo real. Facilita la creación y gestión de aplicaciones con una infraestructura backend completa.
+
+ - [i18n](https://www.i18next.com) - Biblioteca de internacionalización para aplicaciones JavaScript, facilitando la gestión de traducciones y localización.
+
